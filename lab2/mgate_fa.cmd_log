@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Xilinx-ise/lab2/mgate_fa.xst" -ofn "C:/Xilinx-ise/lab2/mgate_fa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I mgate_fa.ngc mgate_fa.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mgate_fa_map.ncd mgate_fa.ngd mgate_fa.pcf 
+par -w -intstyle ise -ol high -mt off mgate_fa_map.ncd mgate_fa.ncd mgate_fa.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml mgate_fa.twx mgate_fa.ncd -o mgate_fa.twr mgate_fa.pcf 
+xst -intstyle ise -ifn "C:/Xilinx-ise/lab2/mgate_fa.xst" -ofn "C:/Xilinx-ise/lab2/mgate_fa.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I mgate_fa.ngc mgate_fa.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mgate_fa_map.ncd mgate_fa.ngd mgate_fa.pcf 
+par -w -intstyle ise -ol high -mt off mgate_fa_map.ncd mgate_fa.ncd mgate_fa.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml mgate_fa.twx mgate_fa.ncd -o mgate_fa.twr mgate_fa.pcf 
+xst -intstyle ise -ifn "C:/Xilinx-ise/lab2/mgate_fa.xst" -ofn "C:/Xilinx-ise/lab2/mgate_fa.syr" 
+xst -intstyle ise -ifn "C:/Xilinx-ise/lab2/mgate_fa.xst" -ofn "C:/Xilinx-ise/lab2/mgate_fa.syr" 
+xst -intstyle ise -ifn "C:/Xilinx-ise/lab2/mgate_fa.xst" -ofn "C:/Xilinx-ise/lab2/mgate_fa.syr" 
+xst -intstyle ise -ifn "C:/Xilinx-ise/lab2/mgate_fa.xst" -ofn "C:/Xilinx-ise/lab2/mgate_fa.syr" 

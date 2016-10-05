@@ -1,0 +1,4 @@
+verilog isim_temp "mgate_fa.v"
+verilog isim_temp "bit8adder.v"
+verilog isim_temp "multiplier.v"
+verilog isim_temp "C:/Xilinx-ise/14.1/ISE_DS/ISE//verilog/src/glbl.v"

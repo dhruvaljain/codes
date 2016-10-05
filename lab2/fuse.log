@@ -1,0 +1,45 @@
+Running: C:\Xilinx-ise\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Xilinx-ise/lab2/test_isim_beh.exe -prj C:/Xilinx-ise/lab2/test_beh.prj work.test work.glbl 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Xilinx-ise/lab2/mgate_fa.v" into library work
+Analyzing Verilog file "C:/Xilinx-ise/lab2/bit8adder.v" into library work
+Analyzing Verilog file "C:/Xilinx-ise/lab2/multiplier.v" into library work
+Analyzing Verilog file "C:/Xilinx-ise/lab2/test.v" into library work
+Analyzing Verilog file "C:/Xilinx-ise/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "C:/Xilinx-ise/lab2/multiplier.v" Line 31: Target <temp> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Xilinx-ise/lab2/multiplier.v" Line 40: Target <temp> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Xilinx-ise/lab2/multiplier.v" Line 49: Target <temp> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Xilinx-ise/lab2/multiplier.v" Line 58: Target <temp> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Xilinx-ise/lab2/multiplier.v" Line 67: Target <temp> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Xilinx-ise/lab2/multiplier.v" Line 76: Target <temp> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Xilinx-ise/lab2/multiplier.v" Line 85: Target <temp> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Xilinx-ise/lab2/multiplier.v" Line 94: Target <temp> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/multiplier.v" Line 49: Size mismatch in connection of port <b>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/multiplier.v" Line 58: Size mismatch in connection of port <b>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/multiplier.v" Line 67: Size mismatch in connection of port <b>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/multiplier.v" Line 76: Size mismatch in connection of port <b>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/multiplier.v" Line 85: Size mismatch in connection of port <b>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/multiplier.v" Line 94: Size mismatch in connection of port <b>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/test.v" Line 26: Size mismatch in connection of port <C>. Formal port size is 8-bit while actual signal size is 12-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/multiplier.v" Line 31: Size mismatch in connection of port <b>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/bit8adder.v" Line 29: Size mismatch in connection of port <c>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx-ise/lab2/multiplier.v" Line 40: Size mismatch in connection of port <b>. Formal port size is 8-bit while actual signal size is 4-bit.
+Completed static elaboration
+Compiling module mgate_fa
+Compiling module bit8adder
+WARNING:HDLCompiler:1007 - "C:/Xilinx-ise/lab2/multiplier.v" Line 66: Element index 4 into B is out of bounds
+WARNING:HDLCompiler:1007 - "C:/Xilinx-ise/lab2/multiplier.v" Line 75: Element index 5 into B is out of bounds
+WARNING:HDLCompiler:1007 - "C:/Xilinx-ise/lab2/multiplier.v" Line 84: Element index 6 into B is out of bounds
+WARNING:HDLCompiler:1007 - "C:/Xilinx-ise/lab2/multiplier.v" Line 93: Element index 7 into B is out of bounds
+Compiling module multiplier
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable C:/Xilinx-ise/lab2/test_isim_beh.exe
+Fuse Memory Usage: 27164 KB
+Fuse CPU Usage: 546 ms
